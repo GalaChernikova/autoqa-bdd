@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/0pqucjuraa31pb70?svg=true)](https://ci.appveyor.com/project/GalaChernikova/autoqa-bdd)
