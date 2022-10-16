@@ -20,6 +20,21 @@ public class DataHelper {
   }
 
   @Value
+  public static class Card {
+    private String numberCard;
+  }
+
+  public static Card getFirstCard() {
+
+    return new Card("5559 0000 0000 0001");
+  }
+
+  public static Card getSecondCard() {
+
+    return new Card("5559 0000 0000 0002");
+  }
+
+  @Value
   public static class VerificationCode {
     private String code;
   }
